@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.img-icon{
+    width: 100px;
+
+    
+}
+.img-icon img{
+    border-radius: 220px;
+}
