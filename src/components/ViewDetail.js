@@ -19,7 +19,7 @@ export default function ViewDetail({ title, image, price, id,description }) {
             </a>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <Image unoptimized
+            <img
               src={image}
               class="bd-placeholder-img"
               width="200"
@@ -33,7 +33,6 @@ export default function ViewDetail({ title, image, price, id,description }) {
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#55595c"></rect>
               <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-               
               </text>
           </div>
         </div>

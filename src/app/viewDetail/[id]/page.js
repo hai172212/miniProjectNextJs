@@ -6,6 +6,41 @@ async function getUserVeiwDetail(id) {
   const data = await res.json();
   return data;
 }
+export async function getProductDetails(id) {
+	const res = await fetch(`https://api.escuelajs.co/api/v1/products/${id}`)
+	const data = await res.json()
+	return data
+}
+
+export async function generateMetadata({ params }) {
+	// read route params
+	const id = params.id
+
+	// fetch data
+	const product = await getProductDetails(id)
+
+	return {
+		title: product.title,
+		description: product.description,
+		image: product.images,
+		openGraph: {
+			type: "website",
+
+			url: `https://escuelajs.co/product/${id}`,
+			title: product.title,
+			description: product.description,
+			images: [
+				{
+					url: product.images,
+					width: 800,
+					height: 600,
+				},
+			],
+		},
+	}
+}
+
+
 
 // export default async function page({ params }) {
 //   const { id } = params;

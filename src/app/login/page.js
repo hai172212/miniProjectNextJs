@@ -285,7 +285,7 @@ function CustomInput({ field, form, ...props }) {
         {...props}
       />
       {perview && (
-        <Image unoptimized
+        <img
           className="w-80 h-48 founded-full object-cover"
           src={perview}
           alt="perview"

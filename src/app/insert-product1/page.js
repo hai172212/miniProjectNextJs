@@ -224,7 +224,7 @@ function CustomInput({ field, form, setSubmitting, ...props }) {
                     <div className="flex flex-col items-center justify-center pt-5 pb-6">
 
                         {previewImage && (
-                            <Image unoptimized  width={500} height={500} src={previewImage} alt="preview" className="mt-4 h-20 w-20" />
+                            <img  width={500} height={500} src={previewImage} alt="preview" className="mt-4 h-20 w-20" />
                         )}
                     </div>
                     <input

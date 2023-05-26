@@ -9,7 +9,7 @@ console.log("in user component: ", id, name, role, avatar)
     <div className="col-sm-4 col-md-6 col-lg-4 items-center">
     <div className="d-flex justify-center">
     <div className="w-52 rounded">
-      <Image unoptimized
+      <img
         
         className="p-8 rounded-t-lg rounded"
         src={avatar ? avatar   : "/images/placeholder-image.png"}

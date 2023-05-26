@@ -18,7 +18,7 @@ export default function NavbarComponent({}) {
 
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#"><div className="img-icon"><Image unoptimized alt="limhai.png" src='https://i.redd.it/3m58gz4ak8a61.png'/></div></Navbar.Brand>
+          <Navbar.Brand href="#"><div className="img-icon"><img alt="limhai.png" src='https://i.redd.it/3m58gz4ak8a61.png'/></div></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -31,6 +31,7 @@ export default function NavbarComponent({}) {
               <Nav.Link href="/dashboard">dashboard</Nav.Link>
               <Nav.Link href="/introduct">introduct</Nav.Link>
               <Nav.Link href="/insert-product1">insert</Nav.Link>
+              <Nav.Link href="/trip-Island-Kampot">trip-Kampot22</Nav.Link>
             </Nav>
             <Form className="d-flex">
             {/* <Link href='/Insert-product' className="mr-30"><Button>Insert</Button></Link> */}

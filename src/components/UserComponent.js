@@ -44,7 +44,7 @@ export default function UserComponent({ name, avatar, creationAt ,role,id,email}
         ) : (
           <div className="d-flex justify-center items-center">
           <div style={{ width: "200px" }}>
-            <Image unoptimizedge unoptimized
+            <imgge unoptimized
               style={{ borderRadius: "100px" }}
               className="p-8 rounded-t-lg"
               src={avatar ? avatar   : "/images/placeholder-image.png"}

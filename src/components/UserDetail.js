@@ -10,7 +10,7 @@ export default function UserDetail({id,email,name,role,avatar,creationAt,updated
     {role}
   </div>
   <div className="card-body">
-  <div className='d-flex justify-center'><Image unoptimized alt="limhai.png" src={avatar}/></div>
+  <div className='d-flex justify-center'><img alt="limhai.png" src={avatar}/></div>
   
     <h5 className="card-title">{name}</h5>
     <p className="card-text">{email}</p>

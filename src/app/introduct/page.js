@@ -156,7 +156,7 @@ export default function page() {
           your customer.
         </p>
         <p>
-          <Image unoptimized
+          <img
             alt="Image of a man behind computers"
             src="https://spring.io/img/og-spring.png"
           />
@@ -206,7 +206,7 @@ export default function page() {
           5PM on Friday before their long-awaited vacation.
         </p>
         <p>
-          <Image unoptimized
+          <img
             alt="Image of a woman and a man pair programming"
             src="https://redd.one/blog/the-art-of-code-review/typewriter-YWBAEYNN.svg"
           />
@@ -279,7 +279,7 @@ export default function page() {
           console. Eh, those dark times.
         </p>
         <p>
-          <Image unoptimized
+          <img
             alt="Image of two women near a big typewriter"
             src="https://redd.one/blog/the-art-of-code-review/pair-programming-J32AE7GR.svg"
           />
@@ -302,7 +302,7 @@ export default function page() {
           
         </p>
         <p>
-          <Image unoptimized
+          <img
             alt="Image of a man behind a computer and a Git commit tree"
             src="https://redd.one/blog/the-art-of-code-review/man-computer-TL4PR3KX.svg"
           />

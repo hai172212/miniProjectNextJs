@@ -3,30 +3,25 @@ import React from 'react'
 import CardCompponent from '@/components/CardCompponent'
 import Slider from '@/components/SliderMovies';
 import UserHomeComponent from '@/components/UserHomeComponent';
+
 export const metadata={
-  title: "Home Page",
-  description: "This is the home page",
-  author:"limhai",
-  creationDate:"26/05/2023",
-  license:"nextJs 13",
-  visibility: "public",
-  locale: 'en-US',
-  category: 'test',
-  siteName: 'limhai',
-  // manifest: '/manifest.json',
-  // openGraph:{
-  //   title: 'Home - LIMHAI',
-  //   description: desc,
-  //   // url: '/',
-  //   siteName: 'LIMHAI',
-  //   // images: [
-  //   //     {
-  //   //         url: "/og-image.jpg",
-  //   //         width: 800,
-  //   //         height: 600,
-  //   //     },
-  //   // ]
-// }
+  title: "ISTAD - Home",
+  description: 'This is my app',
+  images: "/images/alien.png",
+  
+  
+  openGraph: {
+    title: 'ISTAD-HOME',
+    description: 'This is my app',
+    url: 'https://setha-mini-store.vercel.app/',
+    images: "/images/alien.png",
+  },
+  twitter: {
+    title: 'My App',
+    description: 'This is my app',
+    url: 'https://myapp.com',
+    image: 'https://myapp.com/og.png',
+  }
 }
 // get data from API
 export async function getData() {
@@ -45,6 +40,7 @@ export async function getUserData(){
   const data1 = await res.json();
   return data1;
 }
+
 
 
 

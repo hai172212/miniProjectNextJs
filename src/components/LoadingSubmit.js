@@ -21,11 +21,11 @@ function SliderComponent(props) {
                 rightControl={false}
             >
 
-                <Image unoptimized  width={500} height={500} className="object-cover h-full w-full"
+                <img  width={500} height={500} className="object-cover h-full w-full"
                     src="/slide1.jpg"
                     alt="..."
                 />
-                <Image unoptimized  width={500} height={500} className="object-cover h-full w-full"
+                <img  width={500} height={500} className="object-cover h-full w-full"
                     src="/slide2.jpg"
                     alt="..."
                 />

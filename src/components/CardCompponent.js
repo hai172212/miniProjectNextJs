@@ -15,7 +15,7 @@ export default function CardCompponent({ title, image, price, id,description }) 
       <div className="col-sm-6 col-md-6 col-lg-4 mt-5" >
         <div className="card">
           <div className="card-body ">
-            <Image unoptimized
+            <img
               className="p-8 rounded-t-lg"
               src={image ? image : "/images/placeholder-image.png"}
               alt="product image"
